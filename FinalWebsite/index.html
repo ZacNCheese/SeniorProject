@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="all" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts" href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Mono%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>AR in Manufacturing</title>
+</head>
+<body>
+    <div class="mainDiv">
+        <h1 class="mainTitle">AR in Manufacturing</h1>
+        <h2 class="mainSubtitle">Zachary Springman</h2>
+    </div>
+    <div class="seperatorDiv">
+        <h1 class="Seperator">-----------------------------------------</h1>
+    </div>
+    <div class="abstractContainer">
+        <div class="abstractTitle">**Abstract**</div>
+        <p class="abstractPara">The use of augmented reality in the manufacturing space is beginning to grow rapidly. Augmented reality is used to rapidly onboard new employees, add product variation more effectively, and have a universal form of creating product on the assembly line. Good augmented reality software is able to complete SLAM (Localizing and Mapping) many times a minute. This paper will cover four different software development kits, and which one could help you create that software application that will boost your production floor to the next level. My overall conclusion is that the Vuforia SDK is great for AR in manufacturing due to the creation of area targets and ease of use out of box.</p>
+    </div>
+    <div class="seperatorDiv">
+        <h1 class="Seperator">-----------------------------------------</h1>
+    </div>
+    <div class="infoContainer1">
+        <div class="whatARDiv">
+            <h1 class="whatARTitle">What is AR?</h1>
+            <p class="whatARPara">AR stands for augmented reality and is a mix of the virtual and real world. Augmented reality currently has many uses, some include: Entertainment, Manufacturing, and Educational. Augmented reality applications are built much like normal applications. This project will assess the use of AR in a manufacturing enviornment, and then cover a few SDKs (Software Development Kits) that are currently used in AR application development.</p>
+        </div>
+        <div class="whatARPic">
+            <img class="arIconPic" src="../imgs/arIcon.png">
+        </div>
+    </div>
+    <div class="infoContainer2">
+        <div class="arManufPicDiv">
+            <img style="width:70%;border-radius: 100px;" src="../imgs/arManuf.webp">
+        </div>
+        <div class="WhatManufDiv">
+            <h1 class="arManufTitle">AR in Manufacturing</h1>
+            <p class="arManufPara">Augmented Reality is used in manufacturing in the following forms: A way of training or advancing skills, A way of improving product variation, and a way of assuring quality. The current forms of manufacturing that have begun to implement these changes are the automotive industry, the aerospace and defense industry, the electronics industry, and the medical industry. AR training helps to onboard new employees without having to pay the rate of a true professional. It helps all employees to be on the same page when they are doing their roles. It also helps to create new products, as the change just has to be added to the software and the person working the line will be able to make that change. Lastly, it helps to ensure quality by having the software detect any scratches, dents, chips in paint etc.</p>
+        </div>
+    </div>
+    <div class="infoContainer3">
+        <div class="arSoftwareDiv">
+            <h1 class="arSoftwareTitle">What Goes into a Good AR Software?</h1>
+            <p class="arSoftwarePara">Augmented Reality software has one basic task that it should complete with maximum efficiency: SLAM (Simultaneous Localization and Mapping). A device localizes by realising where it is in space and time, and it "maps" by placing the virtual objects accurately in comparison to the surrounding environment. Good AR software also has either visual or audio representation of user interaction. When a user interacts with the application it must show that interaction. The final thing a good AR software should accomplish is saving user input. If a user edits something, it needs to be saved for the next person that opens it. Augmented reality developers usually do not accomplish these things through hard coding. They use something called a Software Development Kit (SDK). This kit will come with pre-coded tools that the developer can use to reach their goal. The following SDKs are all built for augmented reality development: </p>
+        </div>
+        <div class="arSoftwarePic">
+            <img src="../imgs/sdk.webp">
+        </div>
+    </div>
+    <div class="sdkList">
+        <div class="sdkExamp">
+            <img style="width:200px;" src="../imgs/Vuforia.png">
+            <h2 class="vuforiaLabel">Vuforia</h2>
+        </div>
+        <div class="sdkExamp">
+            <img style="width:200px;" src="../imgs/arcore.png">
+            <h2 class="vuforiaLabel">ARCore</h2>
+        </div>
+        <div class="sdkExamp">
+            <img style="width:200px;" src="../imgs/zapworks.png">
+            <h2 class="vuforiaLabel">Zapworks</h2>
+        </div>
+        <div class="sdkExamp">
+            <img style="width:200px;" src="../imgs/arkit.webp">
+            <h2 class="vuforiaLabel">ARKit</h2>
+        </div>
+    </div>
+    <div class="sdkInfoRow1">
+        <div class="vuforiaRow">
+            <h1 style="align-items:center;" class="vuforiaTitle">Vuforia:</h1>
+            <p style="height: 400px;" class="vuforiaPara"> Vuforia is a great software development kit for beginning AR developers. You can create a free account on their website that comes with a free database to store your image targets and area targets. They also have an external application that allows you to scan any room and create an area target for development. The intallation of this SDK into Unity is fairly simply, with just a drag and drop. With the combination of a commercial grade camera, their area targets are fantastic for early developers. Being able to see the room you are placing your virtual objects in makes a huge difference.</p>
+        </div>
+        <div class="vuforiaRow">
+            <h1 class="vuforiaTitle">ARCore:</h1>
+            <p style="height: 400px;" class="vuforiaPara">ARCore is a software development kit created by Google. It stems from a failed project called project Tango, where Google released their AR software to only phones with more advanced cameras. ARCore aims to work with any and every android phone, and it does just that. ARCore excels in catching movements as the camera moves. It is also very good at tracking planes. A plane is any flat surface. It only struggles with shiny or smooth ones. ARCore's main strength is their light detection. The virtual objects have the ability to mimic the real world lighting, which aids in immersion.</p>
+        </div>
+    </div>
+    <div class="sdkInfoRow2">
+        <div class="vuforiaRow">
+            <h1 style="align-items:center;" class="vuforiaTitle">Zapworks:</h1>
+            <p class="vuforiaPara">Zapworks has a fantastic website where you can create an account to store your projects and host them directly from there. Zapworks excels in its flexibility with hosting: being able to host on IOS, Android, and web based solutions. It also has a super friendly UI, with a drag and drop solution of the SDK. The SDK itself is really good at image, face, and world tracking. The only bad thing about this SDK is the cost: starting at around $70 for personal, and $400 for commercial use.</p>
+        </div>
+        <div class="vuforiaRow">
+            <h1 class="vuforiaTitle">ARKit:</h1>
+            <p  class="vuforiaPara">ARKit is Apple's clap-back at Google's ARCore. Out of all the software development kits I have covered, this one has the best tracking, as it uses plotted vertices and edges to constantly render the virtual objects where they should correctly be. It also has super easy implementation in not only Unity, but most game engine software. ARKit also excels in image recognition.</p>
+        </div>
+    </div>
+    <div class="seperatorDiv">
+        <h1 class="Seperator">-----------------------------------------</h1>
+    </div>
+    <div class="abstractContainer">
+        <div style="color:goldenrod;" class="abstractTitle">**Conclusion**</div>
+        <p class="abstractPara">Augmented Reality is on the rise in manufacturing. In this paper we covered the current uses of augmented reality, what goes into a good AR software, and 4 popular software development kits for augmented reality developement. Each SDK had a benefit over the other. Vuforia is easy to use out of the box for new developers, ARCore has fantastic light detection and integration, Zapworks has a very user-friendly UI with many quick and easy hosting options, and ARKit has remarkable Image tracking and image recognition using plotted points. Out of all these options I would recommend Vuforia to a beginning developer looking to bring augmented reality to their company. I think that Vuforia's out of the box usability combined with the extensive area targets will make early-stage develope much easier for the developer.</p>
+    </div>
+    <div class="seperatorDiv">
+        <h1 class="Seperator">-----------------------------------------</h1>
+    </div>
+</body>
+</html>
